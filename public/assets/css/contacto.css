@@ -1,0 +1,99 @@
+button{
+  margin-left: 11%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  border-radius: 10%;
+  background-color: rgba(36, 17, 174, 0.5); /* Aquí, 0.5 establece un 50% de opacidad */
+  border: none;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 4px rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+button:hover,
+button:focus {
+background-color: rgba(0, 0, 0, 0.918);
+}
+
+button {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+header{
+  padding: 5%;
+}
+
+h1{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(14, 2, 103);
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+    margin-top: -2%;
+}
+
+P{
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  /*margin-left: 5%;*/
+  color: rgb(0, 0, 0);
+}
+
+#nombre{
+  padding-top: 0px;
+  margin-top: 0px;
+  text-align: center;
+  }
+
+  #Nombres{
+    text-align: center;
+    margin-top: 5%;
+  }
+
+  #Correo{
+    text-align: center;
+    margin-top: 3%;
+  }
+
+
+  body{
+    background-image: url(/Imágenes/catorce.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  strong{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*margin-left: 5%;*/
+    color: rgb(14, 2, 103);
+    }
+
+    h3{
+      color: white;
+      margin-left: 5%;
+      margin-right: 5%;
+      font-size: 120%;
+    }
+    
+    footer {
+      text-align: center;
+      background-color: #47484c91;
+      border-top: 1px solid #1c1b1b;
+      padding: 10px;
+      border-radius: 0 0 10px 10px;
+      margin-top: 300px;
+    }
